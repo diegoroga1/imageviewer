@@ -53,7 +53,7 @@ public class Application extends JFrame{
     }
 
     private Image image() {
-        return new FileImageReader("C:\\Users\\Pictures").read();
+        return new FileImageReader("D:\\Descargas").read();//Pictures Directory
     }
 
     private  Component toolbar() {
